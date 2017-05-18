@@ -35,6 +35,35 @@
         <input id="search-input" type="text">
     </div>
 </div>
+<div class="top-red">
+    <i class="top-red-arr"></i>
+    <ul>
+        <li class="top-red-li-active"><em class="top-red-em-active">推荐</em></li>
+        <li><em>排行榜</em></li>
+        <li><em>歌单</em></li>
+        <li><em>主播电台</em></li>
+        <li><em>歌手</em></li>
+        <li><em>新碟上架</em></li>
+    </ul>
+</div>
+<div class="picture-out">
+    <div class="picture-inner">
+        <div class="picture-prev"></div>
+        <div class="picture-next"></div>
+        <div class="picture-content">
+
+        </div>
+        <div class="picture-download">
+            <div class="picture-download-button"></div>
+        </div>
+        <div class="picture-point">
+            <i class="point-1 picture-point-active" data-num="1"></i>
+            <i class="point-2" data-num="2"></i>
+            <i class="point-3" data-num="3"></i>
+            <i class="point-4" data-num="4"></i>
+        </div>
+    </div>
+</div>
 </body>
 <script type="text/javascript" src="lib/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="resources/js/index.js"></script>
