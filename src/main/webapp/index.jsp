@@ -64,6 +64,179 @@
         </div>
     </div>
 </div>
+<div class="content-bg">
+    <div class="content-left">
+        <div class="content-left-top">
+            <div class="content-left-menu">
+                <a class="hot-recommend">热门推荐</a>
+                <div class="music-type">
+                    <a>华语</a>
+                    <span class="line">|</span>
+                    <a>流行</a>
+                    <span class="line">|</span>
+                    <a>摇滚</a>
+                    <span class="line">|</span>
+                    <a>民谣</a>
+                    <span class="line">|</span>
+                    <a>电子</a>
+                </div>
+                <div class="content-left-top-more">
+                    <a>更多</a>
+                </div>
+            </div>
+            <div class="content-left-top-recommend">
+                <div class="recommend-top">
+                    <div class="recommend recommend1">
+                        <a class="recommend-picture"></a>
+                        <div class="recommend-picture-bottom">
+                            <i></i>
+                            <span>109万</span>
+                            <div class="icon-play"></div>
+                        </div>
+                        <a class="title"><i></i>内地优秀影视作曲人•作品选辑</a>
+                    </div>
+                    <div class="space"></div>
+                    <div class="recommend recommend2">
+                        <a class="recommend-picture"></a>
+                        <div class="recommend-picture-bottom">
+                            <i></i>
+                            <span>109万</span>
+                            <div class="icon-play"></div>
+                        </div>
+                        <a class="title"><i></i>『震惊』那些一瞬间就能惊艳到你的Drop</a>
+                    </div>
+                    <div class="space"></div>
+                    <div class="recommend recommend3">
+                        <a class="recommend-picture"></a>
+                        <div class="recommend-picture-bottom">
+                            <i></i>
+                            <span>47万</span>
+                            <div class="icon-play"></div>
+                        </div>
+                        <a class="title"><i></i>「浅夜轻吟」星火阑珊 恍入梦呓之境</a>
+                    </div>
+                    <div class="space"></div>
+                    <div class="recommend recommend4">
+                        <a class="recommend-picture"></a>
+                        <div class="recommend-picture-bottom">
+                            <i></i>
+                            <span>45085</span>
+                            <div class="icon-play"></div>
+                        </div>
+                        <a class="title"><i></i>乖，你要好好吃三餐</a>
+                    </div>
+                </div>
+                <div class="recommend-bottom">
+                    <div class="recommend recommend5">
+                        <a class="recommend-picture"></a>
+                        <div class="recommend-picture-bottom">
+                            <i></i>
+                            <span>28万</span>
+                            <div class="icon-play"></div>
+                        </div>
+                        <a class="title"><i></i>设计师运动健身听这单</a>
+                    </div>
+                    <div class="space"></div>
+                    <div class="recommend recommend6">
+                        <a class="recommend-picture"></a>
+                        <div class="recommend-picture-bottom">
+                            <i></i>
+                            <span>79807</span>
+                            <div class="icon-play"></div>
+                        </div>
+                        <a class="title"><i></i>鬼吹灯之精绝古城001</a>
+                    </div>
+                    <div class="space"></div>
+                    <div class="recommend recommend7">
+                        <a class="recommend-picture"></a>
+                        <div class="recommend-picture-bottom">
+                            <i></i>
+                            <span>54万</span>
+                            <div class="icon-play"></div>
+                        </div>
+                        <a class="title"><i></i>【韩语】前奏向//容易中毒的韩式旋律</a>
+                    </div>
+                    <div class="space"></div>
+                    <div class="recommend recommend8">
+                        <a class="recommend-picture"></a>
+                        <div class="recommend-picture-bottom">
+                            <i></i>
+                            <span>84284</span>
+                            <div class="icon-play"></div>
+                        </div>
+                        <a class="title"><i></i>主播樵歌：读书和不读书的女人究竟差在哪儿－沐叔</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-ad"><i></i></div>
+        <div class="content-album">
+            <div class="content-left-menu">
+                <a class="hot-recommend">新碟上架</a>
+                <div class="content-left-top-more">
+                    <a>更多</a>
+                </div>
+            </div>
+            <div class="content-new-album-out">
+                <div class="content-new-album-bg">
+                    <a class="album-pre"></a>
+                    <a class="album-next"></a>
+                    <ul class="new-album-list">
+                        <li>
+                            <div class="album-out">
+                                <div class="new-album new-album1"></div>
+                            </div>
+                            <a class="new-album-icon-play"></a>
+                            <a>欢乐颂2 电视原声带</a>
+                            <a>群星</a>
+                        </li>
+                        <li>
+                            <div class="album-out">
+                                <div class="new-album new-album2"></div>
+                            </div>
+                            <a class="new-album-icon-play"></a>
+                            <a>Harry Styles</a>
+                            <a>Harry Styles</a>
+                        </li>
+                        <li>
+                            <div class="album-out">
+                                <div class="new-album new-album3"></div>
+                            </div>
+                            <a class="new-album-icon-play"></a>
+                            <a>4X2=8</a>
+                            <a>PSY</a>
+                        </li>
+                        <li>
+                            <div class="album-out">
+                                <div class="new-album new-album4"></div>
+                            </div>
+                            <a class="new-album-icon-play"></a>
+                            <a>2017跨界歌王 第五期</a>
+                            <a>群星</a>
+                        </li>
+                        <li>
+                            <div class="album-out">
+                                <div class="new-album new-album5"></div>
+                            </div>
+                            <a class="new-album-icon-play"></a>
+                            <a>Whatever It Takes</a>
+                            <a>Imagine Dragons</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content-list">
+            <div class="content-left-menu">
+                <a class="hot-recommend">榜单</a>
+                <div class="content-left-top-more">
+                    <a>更多</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-right"></div>
+</div>
 </body>
 <script type="text/javascript" src="lib/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="resources/js/index.js"></script>

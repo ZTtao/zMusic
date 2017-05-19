@@ -72,3 +72,9 @@ $(".picture-next").on('click',function () {
 $(".picture-point i").on('click',function () {
    changePicture($(this).attr('data-num'));
 });
+$(".album-out").hover(function () {
+    $(".new-album-icon-play").show();
+},function () {
+    if(!$(".new-album-icon-play").is(":hover"))
+        $(".new-album-icon-play").hide();
+});
