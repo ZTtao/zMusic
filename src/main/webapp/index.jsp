@@ -2,6 +2,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01Transitional//EN">
 <html>
 <head>
+    <link type="text/css" href="lib/bootstrap-3.3.0/css/bootstrap.min.css" rel="stylesheet"/>
     <link type="text/css" href="resources/css/index.css" rel="stylesheet"/>
 </head>
 <body>
@@ -16,7 +17,7 @@
         <li><a class="top-hot">下载客户端</a><sup class="sup-hot"></sup></li>
     </ul>
     <div class="top-login">
-        <a>登录</a>
+        <a id="btn-login">登录</a>
         <div class="top-menu-out">
             <div class="top-menu">
                 <i class="top-menu-arr"></i>
@@ -233,11 +234,486 @@
                     <a>更多</a>
                 </div>
             </div>
+            <div class="content-list-out">
+                <div class="content-list-in">
+                    <div class="list-in-top">
+                        <div class="list-in-top-picture list-in-top-picture1">
+                            <div class="list-in-top-picture-cover"></div>
+                        </div>
+                        <div class="list-in-top-rigth">
+                            <a class="list-in-top-title">云音乐飙升榜</a>
+                            <div>
+                                <a class="list-in-top-icon-play"></a>
+                                <a class="list-in-top-icon-folder"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-in-content">
+                        <ul>
+                            <li>
+                                <span class="content-num red-font">1</span>
+                                <a>Tired</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num red-font">2</span>
+                                <a>Swish Swish</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num red-font">3</span>
+                                <a>天已黑</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">4</span>
+                                <a>Love Shouldn't Be So Hard</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">5</span>
+                                <a>我害怕</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">6</span>
+                                <a>Strip That Down</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">7</span>
+                                <a>I Like Me Better</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">8</span>
+                                <a>家的滋味</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">9</span>
+                                <a>Castle on the Hill (Seeb Remix)</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">10</span>
+                                <a>No Vacancy</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="list-in-bottom">查看全部></a>
+                </div>
+                <div class="content-list-in">
+                    <div class="list-in-top">
+                        <div class="list-in-top-picture list-in-top-picture2">
+                            <div class="list-in-top-picture-cover"></div>
+                        </div>
+                        <div class="list-in-top-rigth">
+                            <a class="list-in-top-title">云音乐飙升榜</a>
+                            <div>
+                                <a class="list-in-top-icon-play"></a>
+                                <a class="list-in-top-icon-folder"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-in-content">
+                        <ul>
+                            <li>
+                                <span class="content-num red-font">1</span>
+                                <a>咖喱咖喱</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num red-font">2</span>
+                                <a>Tired</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num red-font">3</span>
+                                <a>我害怕</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">4</span>
+                                <a>吻你之时别再躲</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">5</span>
+                                <a>披风</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">6</span>
+                                <a>Swish Swish</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">7</span>
+                                <a>Attention</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">8</span>
+                                <a>白山茶</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">9</span>
+                                <a>天已黑</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">10</span>
+                                <a>放</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="list-in-bottom">查看全部></a>
+                </div>
+                <div class="content-list-in">
+                    <div class="list-in-top">
+                        <div class="list-in-top-picture list-in-top-picture3">
+                            <div class="list-in-top-picture-cover"></div>
+                        </div>
+                        <div class="list-in-top-rigth">
+                            <a class="list-in-top-title">云音乐飙升榜</a>
+                            <div>
+                                <a class="list-in-top-icon-play"></a>
+                                <a class="list-in-top-icon-folder"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-in-content">
+                        <ul>
+                            <li>
+                                <span class="content-num red-font">1</span>
+                                <a>哪吒</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num red-font">2</span>
+                                <a>真实感</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num red-font">3</span>
+                                <a>郭源潮</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">4</span>
+                                <a>你，来替我做个梦</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">5</span>
+                                <a>白山茶</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">6</span>
+                                <a>纠缠(Lingering)</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">7</span>
+                                <a>告别之后</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">8</span>
+                                <a>安心，也孤独</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">9</span>
+                                <a>一匹白马</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="content-num">10</span>
+                                <a>廿二</a>
+                                <div class="content-operate">
+                                    <i class="content-operate-icon-play"></i>
+                                    <i class="content-operate-icon-add"></i>
+                                    <i class="content-operate-icon-folder"></i>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="list-in-bottom">查看全部></a>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="content-right"></div>
+    <div class="content-right">
+        <div class="content-right-top">
+            <p>登录网易云音乐，可以享受无限收藏的乐趣，并且无限同步到手机</p>
+            <a>用户登录</a>
+        </div>
+        <div class="singer">
+            <div class="singer-top">
+                入驻歌手
+                <a>查看全部></a>
+            </div>
+            <ul>
+                <li>
+                    <div class="singer-picture singer-picture1"></div>
+                    <div class="singer-message">
+                        <p class="singer-name">张惠妹aMEI</p>
+                        <p class="singer-info">台湾歌手张惠妹</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="singer-picture singer-picture2"></div>
+                    <div class="singer-message">
+                        <p class="singer-name">尚雯婕</p>
+                        <p class="singer-info">原创电子唱作人</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="singer-picture singer-picture3"></div>
+                    <div class="singer-message">
+                        <p class="singer-name">羽泉组合</p>
+                        <p class="singer-info">国内知名演唱组合羽泉</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="singer-picture singer-picture4"></div>
+                    <div class="singer-message">
+                        <p class="singer-name">李志</p>
+                        <p class="singer-info">个体音乐人李志</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="singer-picture singer-picture5"></div>
+                    <div class="singer-message">
+                        <p class="singer-name">马頔</p>
+                        <p class="singer-info">民谣音乐人</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="singer-apply"><i>申请成为网易音乐人</i></div>
+        <div class="hot-dj">
+            <p class="hot-dj-title">热门DJ</p>
+            <ul>
+                <li>
+                    <div class="hot-dj-picture hot-dj-picture1"></div>
+                    <div class="hot-dj-message">
+                        <div class="hot-dj-message-top">
+                            <a>陈立</a>
+                            <i></i>
+                        </div>
+                        <p>美食家陈立教授</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="hot-dj-picture hot-dj-picture2"></div>
+                    <div class="hot-dj-message">
+                        <div class="hot-dj-message-top">
+                            <a>DJ艳秋</a>
+                            <i></i>
+                        </div>
+                        <p>著名音乐节目主持人</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="hot-dj-picture hot-dj-picture3"></div>
+                    <div class="hot-dj-message">
+                        <div class="hot-dj-message-top">
+                            <a>国家大剧院古典音乐频道</a>
+                            <i></i>
+                        </div>
+                        <p>国家大剧院古典音乐官方</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="hot-dj-picture hot-dj-picture4"></div>
+                    <div class="hot-dj-message">
+                        <div class="hot-dj-message-top">
+                            <a>谢谢收听</a>
+                            <i></i>
+                        </div>
+                        <p>南京电台主持人王馨</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="hot-dj-picture hot-dj-picture5"></div>
+                    <div class="hot-dj-message">
+                        <div class="hot-dj-message-top">
+                            <a>DJ晓苏</a>
+                            <i></i>
+                        </div>
+                        <p>独立DJ，CRI环球旅游广播特邀DJ</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-in">
+        <div class="footer-left">
+            <ul>
+                <li>关于网易</li>
+                <i>|</i>
+                <li>客户服务</li>
+                <i>|</i>
+                <li>服务条款</li>
+                <i>|</i>
+                <li>网站导航</li>
+                <i>|</i>
+                <li>意见反馈</li>
+            </ul>
+            <p>网易公司版权所有©1997-2017</p>
+            <p>杭州乐读科技有限公司运营：
+                <a>浙网文[2015] 0415-135号</a>
+            </p>
+        </div>
+            <ul class="footer-right-out">
+                <li class="footer-right footer-right1"></li>
+                <li class="footer-right footer-right2"></li>
+                <li class="footer-right footer-right3"></li>
+                <li class="footer-right footer-right4"></li>
+            </ul>
+    </div>
+</div>
+<%--登录弹窗modal--%>
+<div id="login-modal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="login-modal-title-out">
+                <a data-dismiss="modal"></a>
+                <h4 class="modal-title">登录</h4>
+            </div>
+            <div class="modal-body">
+                body
+            </div>
+        </div>
+    </div>
 </div>
 </body>
-<script type="text/javascript" src="lib/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="resources/js/index.js"></script>
+    <script type="text/javascript" src="lib/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap-3.3.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="resources/js/index.js"></script>
 </html>

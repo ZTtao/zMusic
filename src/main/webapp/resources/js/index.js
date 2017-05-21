@@ -78,3 +78,13 @@ $(".album-out").hover(function () {
     if(!$(".new-album-icon-play").is(":hover"))
         $(".new-album-icon-play").hide();
 });
+$(".list-in-content ul li").hover(function () {
+    $(this).children("div").show();
+    $(this).children("a").css("width","97px");
+},function () {
+    $(this).children("div").hide();
+    $(this).children("a").css("width","150px");
+});
+$('.content-right-top a').on('click',function () {
+   $('#login-modal').modal('show');
+});
